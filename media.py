@@ -11,7 +11,7 @@ while numero != "fine":
         break  # Esce dal ciclo quando l'utente scrive "fine"
     
     else :
-        totale_numeri += int(numero)  # Converte l'input in un numero intero e aggiunge al totale
+        totale_numeri += float(numero)  # Converte l'input in un numero intero e aggiunge al totale
         totale_cicli += 1  # Incrementa il conteggio dei numeri inseriti
     
 print ("la media dei tuoi numeri è " , totale_numeri/totale_cicli )
