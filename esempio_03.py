@@ -27,9 +27,9 @@ while punteggio_uno <= 40 and punteggio_due <= 40 :
     if punteggio_uno == 40 and punteggio_due == 40 :
         break
 
-#siamo arrivati al tie break o 'vantaggi'
+#siamo arrivati ai 'vantaggi'
 if punteggio_uno == punteggio_due == 40 :  
-    print("Siamo al tie break ")
+    print("Siamo al Vantaggio ")
     while True :
         scambio = int(input("Inserisci il numero 1, se vince lo scambio dei Vantaggi, Sinner; 2 per Alcaraz: "))
         if scambio == 1 and punteggio_uno == 40 :
