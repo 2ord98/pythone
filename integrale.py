@@ -1,5 +1,6 @@
 #esercizio del prof sugli integrali
 from math import sqrt
+from math import pi
 
 n= int(input("inserisci il numero di segmenti: "))
 
@@ -14,9 +15,9 @@ def integrale_y (n):
 
 risultato = integrale_y(n)
 print(f"L'approssimazione dell'integrale con segmenti {n} è: {risultato}")
-print(f"confronto con il Valore esatto che è: {3.1415926535 / 4}") #pigreco/4 è quello perche è un quarto di circonferenza e il parametro resta stabile tra 0-1
+print(f"confronto con il Valore esatto che è: {pi / 4}") #pigreco/4 è quello perche è un quarto di circonferenza e il parametro resta stabile tra 0-1
 
-valore= integrale_y(n)/3.1415926535
+valore= integrale_y(n)/pi
 print(f"questo è il valore diviso pi greco: {valore}")
 
 #è piu accurato o meno accurato a seconda del numero di segmenti che si inseriscono nella n
